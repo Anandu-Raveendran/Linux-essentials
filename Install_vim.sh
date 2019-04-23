@@ -47,4 +47,7 @@ echo "\nInstalling vim highlight for cursor words"
 mkdir -p ~/.vim/bundle/vim-highlight-cursor-words
 git clone https://github.com/pboettch/vim-highlight-cursor-words.git ~/.vim/bundle/vim-highlight-cursor-words
 
+echo "\n create persistent undo dir"
+mkdir ~/.vim/undodir
+
 echo "\nDone." 
